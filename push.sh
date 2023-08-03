@@ -2,5 +2,5 @@ git add .
 git commit -m "update"
 git push
 
-echo "mesakas"
-echo "zhou981223"
+send "mesakas"
+send "zhou981223"
