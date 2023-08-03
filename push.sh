@@ -1,5 +1,10 @@
 git add .
 git commit -m "update"
 
-echo mesakas | git push
+set timeout 30
+spawn git push
+expect "Username for 'https://github.com':"
 
+send "mesakas"
+
+interact
