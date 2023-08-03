@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-size: 13px;
+    color: #404044;
+}
+
+.app {
+    width: 100%;
+    max-width: 1200px;
+    margin: 100px auto 100px auto;
+    /*background-color: antiquewhite;*/
+}
+
+.title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.title {
+    margin: 20px;
+    font-size: 30px;
+}
+
+.title-icon {
+    background-image: url("./URP-Icon.png");
+    height: 200px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 10px;
+}
