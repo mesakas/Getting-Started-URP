@@ -1,9 +1,7 @@
 git add .
 git commit -m "update"
-git push << EOF
-mesakas
-EOF
- 
-<< EOF
-zhou981223
-EOF
+git push
+
+expext "Username for 'https://github.com':"
+send "mesakas"
+
