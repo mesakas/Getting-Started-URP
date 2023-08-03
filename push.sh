@@ -1,6 +1,7 @@
 git add .
 git commit -m "update"
-git push
+
+spawn git push
 
 expext "Username for 'https://github.com':"
 send "mesakas"
